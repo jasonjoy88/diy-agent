@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+data/*
+!data/.gitkeep
+.env
+.testtmp/
+
+# 根目录非配置 JSON（超时中断记录等运行产物）；配置类 JSON 用下方 ! 保留
+/*.json
+data/quark-cli/
+browse/
+quarkclouddrive/.quarkclouddrive/
+quarkclouddrive/logs/
+quarkclouddrive/downloads/

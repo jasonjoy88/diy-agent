@@ -1,0 +1,18 @@
+{
+  "deviceId": "cec5a364f2091567100b306ee451e16b",
+  "platform": "Windows",
+  "currentUserId": "47955041757c46f088d700f2b84faf64",
+  "agent_auth": {
+    "openclaw": {
+      "userId": "47955041757c46f088d700f2b84faf64",
+      "login_time": 1791187073093
+    }
+  },
+  "47955041757c46f088d700f2b84faf64": {
+    "accessToken": "~1tQm8iaekI5qFC2IQF9sIaxhwQe-u5XbawlO5TxajavgsGirFk3LxAeOxGC8jhIdbgSrwq3A5MOtHiIYzX11g9a5P6mUa_zpkFHiwIoC7ZsK5W_7gq0uEw1Ry1Ht5qYM6cDcFXCZJmAiiWmyP74tJcM9I4WhZPNBltnTdVuHoRN78qZ_WPnHzCJze9hQZscRHqLtAR-dP1xX4DRpPM94m7Lrjx7KfCUfzXgBU8W_PZdwNbK-VBUHzWvEDv8ZbcxWVAWVmHeATLTUTxghkebmd4-qm9M8wgUmh-kRqAcb4VvbPseawAC5icIvoNg61w44eM3EqXPP8s2qfGgZO7EgRixNusXFJzrP3-b_zeeCZ8NV-JQuOzpQvKg6aFBOToAhdHqSHzijfmuBWnRaJr1iOADgG-ChPRjeVStee63ipAF_A1bPDgWkwmQgtxzi7LsbCy-pZhnGGD-FchHG8YuY8xpI_DGawZDcYDlcB2QS27sJhS_c7nHFX",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsIlR5cGUiOiJKd3QiLCJ0eXAiOiJKV1QifQ.eyJvcGVuSWQiOiI0Nzk1NTA0MTc1N2M0NmYwODhkNzAwZjJiODRmYWY2NCIsImV4cCI6MTgwNjczOTA3MiwidG9rZW4iOiJlYjFiMjA0MzJmNjM0OWI1OGZhZTZiMmQ0NTE0M2M2ZSJ9.NK4lnNXTPy0g9TfdRetA-w8FxbPOkT08yhIPyKwzXLs",
+    "clientToken": "",
+    "userId": "47955041757c46f088d700f2b84faf64",
+    "update_time": 1791187073093
+  }
+}
