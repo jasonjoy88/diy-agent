@@ -1,0 +1,36 @@
+{
+  "mcpServers": {
+    "{{NAME_KEBAB}}": {
+      "type": "streamableHttp",
+      "url": "{{TODO_MCP_SERVER_URL}}",
+      "timeout": 30000,
+      "headers": {
+        "Authorization": "Bearer ${API_TOKEN}"
+      },
+      "x-workbuddy": {
+        "displayName": { "zh": "{{TODO_DISPLAY_NAME_ZH}}", "en": "{{TODO_DISPLAY_NAME_EN}}" },
+        "description": { "zh": "{{TODO_WHAT_IT_CAN_DO_AFTER_CONNECTING}}", "en": "{{TODO_WHAT_IT_CAN_DO_EN}}" },
+        "icon": "./avatars/{{NAME_KEBAB}}.svg",
+        "auth": {
+          "type": "token",
+          "tokenSchema": {
+            "title": { "zh": "配置访问 Token", "en": "Configure Access Token" },
+            "description": { "zh": "请输入 API Token。", "en": "Enter your API token." },
+            "docUrl": "{{TODO_HOW_TO_GET_TOKEN_DOC_URL}}",
+            "docLabel": { "zh": "如何获取 Token?", "en": "How to get a token?" },
+            "fields": [
+              {
+                "key": "API_TOKEN",
+                "label": { "zh": "API Token", "en": "API Token" },
+                "placeholder": { "zh": "请输入 API Token", "en": "Enter API token" },
+                "type": "password",
+                "required": true,
+                "description": { "zh": "将写入 Authorization Header", "en": "Will be written to the Authorization header" }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

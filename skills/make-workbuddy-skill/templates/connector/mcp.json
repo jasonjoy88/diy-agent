@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "{{NAME_KEBAB}}": {
+      "type": "streamableHttp",
+      "url": "{{TODO_MCP_SERVER_URL}}",
+      "timeout": 30000
+    }
+  }
+}

@@ -25,5 +25,5 @@
 | 目录 | 说明 |
 | --- | --- |
 | `skills/agent-platform-agnostic/` | 抹去 CodeBuddy/WorkBuddy 等平台绑定，并改写 README 以适配多平台；对其它专家包做相同处理时使用此 skill |
-
-该目录在 `.gitignore` 中，仅本机保留，不随仓库提交。
+| `skills/make-workbuddy-skill/` | 按规范生成 Tencent WorkBuddy 专家、技能、连接器骨架（`plugin.json` / `SKILL.md` / `mcp.json`），并在提交前校验字段是否合规 |
+| `skills/software-project-analyzer/` | 平台无关的多角色项目分析：勘察本地代码库，产出可快速理解架构、环境与作用的中文报告（完整/快速模式）；可在 Cursor、Claude Code、Codex 等环境接入 |

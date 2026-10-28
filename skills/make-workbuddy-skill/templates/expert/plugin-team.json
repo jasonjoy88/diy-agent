@@ -1,0 +1,67 @@
+{
+  "name": "{{NAME_KEBAB}}",
+  "version": "1.0.0",
+  "description": "{{TODO_EN_SHORT_DESCRIPTION_OF_THE_TEAM}}",
+  "author": {
+    "name": "{{TODO_AUTHOR_NAME}}",
+    "email": "{{TODO_AUTHOR_EMAIL}}"
+  },
+  "agents": [
+    "./agents/{{TODO_LEAD_AGENT}}.md",
+    "./agents/{{TODO_MEMBER_AGENT_1}}.md"
+  ],
+  "skills": [],
+  "expertType": "team",
+  "agentName": "{{TODO_LEAD_AGENT}}",
+  "teamInfo": {
+    "leadAgent": "{{TODO_LEAD_AGENT}}",
+    "memberAgents": [
+      "{{TODO_MEMBER_AGENT_1}}"
+    ]
+  },
+  "displayName": {
+    "en": "{{TODO_DISPLAY_NAME_EN}}",
+    "zh": "{{TODO_DISPLAY_NAME_ZH}}"
+  },
+  "profession": {
+    "en": "{{TODO_PROFESSION_EN}}",
+    "zh": "{{TODO_PROFESSION_ZH}}"
+  },
+  "displayDescription": {
+    "en": "{{TODO_DISPLAY_DESCRIPTION_EN}}",
+    "zh": "{{TODO_DISPLAY_DESCRIPTION_ZH_40_50_CHARS}}"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "{{TODO_CATEGORY_ID}}",
+  "defaultInitPrompt": {
+    "zh": "{{TODO_QUICK_PROMPT_1_ZH}}",
+    "en": "{{TODO_QUICK_PROMPT_1_EN}}"
+  },
+  "plugin": "{{NAME_KEBAB}}",
+  "tags": [
+    { "en": "{{TODO_TAG_1_EN}}", "zh": "{{TODO_TAG_1_ZH}}" },
+    { "en": "{{TODO_TAG_2_EN}}", "zh": "{{TODO_TAG_2_ZH}}" },
+    { "en": "{{TODO_TAG_3_EN}}", "zh": "{{TODO_TAG_3_ZH}}" }
+  ],
+  "quickPrompts": [
+    { "en": "{{TODO_QUICK_PROMPT_1_EN}}", "zh": "{{TODO_QUICK_PROMPT_1_ZH}}" },
+    { "en": "{{TODO_QUICK_PROMPT_2_EN}}", "zh": "{{TODO_QUICK_PROMPT_2_ZH}}" },
+    { "en": "{{TODO_QUICK_PROMPT_3_EN}}", "zh": "{{TODO_QUICK_PROMPT_3_ZH}}" }
+  ],
+  "members": [
+    {
+      "id": "{{TODO_LEAD_AGENT}}",
+      "name": { "en": "{{TODO_LEAD_NAME_EN}}", "zh": "{{TODO_LEAD_NAME_ZH}}" },
+      "profession": { "en": "{{TODO_LEAD_PROFESSION_EN}}", "zh": "{{TODO_LEAD_PROFESSION_ZH}}" },
+      "avatar": "avatars/{{TODO_LEAD_AGENT}}.png",
+      "role": "lead"
+    },
+    {
+      "id": "{{TODO_MEMBER_AGENT_1}}",
+      "name": { "en": "{{TODO_MEMBER_1_NAME_EN}}", "zh": "{{TODO_MEMBER_1_NAME_ZH}}" },
+      "profession": { "en": "{{TODO_MEMBER_1_PROFESSION_EN}}", "zh": "{{TODO_MEMBER_1_PROFESSION_ZH}}" },
+      "avatar": "avatars/{{TODO_MEMBER_AGENT_1}}.png",
+      "role": "member"
+    }
+  ]
+}

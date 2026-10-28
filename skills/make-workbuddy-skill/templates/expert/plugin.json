@@ -1,0 +1,43 @@
+{
+  "name": "{{NAME_KEBAB}}",
+  "version": "1.0.0",
+  "description": "{{TODO_EN_SHORT_DESCRIPTION}}",
+  "author": {
+    "name": "{{TODO_AUTHOR_NAME}}",
+    "email": "{{TODO_AUTHOR_EMAIL}}"
+  },
+  "agents": [
+    "./agents/{{NAME_KEBAB}}.md"
+  ],
+  "expertType": "agent",
+  "agentName": "{{NAME_KEBAB}}",
+  "displayName": {
+    "en": "{{TODO_DISPLAY_NAME_EN}}",
+    "zh": "{{TODO_DISPLAY_NAME_ZH}}"
+  },
+  "profession": {
+    "en": "{{TODO_PROFESSION_EN}}",
+    "zh": "{{TODO_PROFESSION_ZH}}"
+  },
+  "displayDescription": {
+    "en": "{{TODO_DISPLAY_DESCRIPTION_EN}}",
+    "zh": "{{TODO_DISPLAY_DESCRIPTION_ZH_40_50_CHARS}}"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "{{TODO_CATEGORY_ID}}",
+  "defaultInitPrompt": {
+    "zh": "{{TODO_QUICK_PROMPT_1_ZH}}",
+    "en": "{{TODO_QUICK_PROMPT_1_EN}}"
+  },
+  "plugin": "{{NAME_KEBAB}}",
+  "tags": [
+    { "en": "{{TODO_TAG_1_EN}}", "zh": "{{TODO_TAG_1_ZH}}" },
+    { "en": "{{TODO_TAG_2_EN}}", "zh": "{{TODO_TAG_2_ZH}}" },
+    { "en": "{{TODO_TAG_3_EN}}", "zh": "{{TODO_TAG_3_ZH}}" }
+  ],
+  "quickPrompts": [
+    { "en": "{{TODO_QUICK_PROMPT_1_EN}}", "zh": "{{TODO_QUICK_PROMPT_1_ZH}}" },
+    { "en": "{{TODO_QUICK_PROMPT_2_EN}}", "zh": "{{TODO_QUICK_PROMPT_2_ZH}}" },
+    { "en": "{{TODO_QUICK_PROMPT_3_EN}}", "zh": "{{TODO_QUICK_PROMPT_3_ZH}}" }
+  ]
+}
