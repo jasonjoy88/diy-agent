@@ -12,6 +12,7 @@
 | 目录 | 说明 |
 | --- | --- |
 | [`php-migration-analyst/`](php-migration-analyst/README.md) | PHP 低版本→高版本升级只读排障：对照迁移变更、检索日志与代码，输出含证据链的修改建议 |
+| [`wechat-miniprogram-expert/`](wechat-miniprogram-expert/README.md) | 微信小程序全周期开发：原生框架、WXML/WXSS、云开发、审核合规与项目档案续接 |
 
 ## 可运行 Agent
 
